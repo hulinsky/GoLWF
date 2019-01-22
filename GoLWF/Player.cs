@@ -18,6 +18,7 @@ namespace GoLWF
         public Player()
         {
             universe = new Universe(sizeOfUniverse);
+            universe.Genesis(Universe.TypeOfGenesis.Chaos,10);
         }
 
         public void Show (Graphics g)
